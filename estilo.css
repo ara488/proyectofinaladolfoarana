@@ -1,0 +1,74 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box
+ 
+
+}
+
+body{
+    background: #e7dfe9 ;
+    font-family: 'Noto Sans JP', sans-serif;
+   
+}
+
+a {
+text-decoration: none;
+}
+
+.contenedor{
+    width: 90% ;
+    max-width: 900px ;
+    margin: auto;
+}
+
+/* el Header*/
+
+header{
+    padding: 40px 0;
+}
+
+header{
+    text-align-last: center;
+    margin-bottom: 40px;
+
+}
+
+header .logo p{
+color: #1ac09c;
+}
+header form{
+width: 100;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+
+}
+
+header .barra-busqueda{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background: #5bb1ce;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+header .categorias {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+header .categorias a {
+	color:#717D7E;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+}
+header .categorias a.activo {
+	color: #000;
+}
